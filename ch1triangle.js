@@ -1,6 +1,12 @@
 
-
 const mktriangle = function (size) {
-    //Iterates over lines
+    
+    let wall = '';
 
+    for (let a = 0; a < size ; a++){
+	wall += '#';
+	console.log(wall);
+    }	    
 }
+
+mktriangle(2);
