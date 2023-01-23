@@ -9,4 +9,5 @@ const mktriangle = function (size) {
     }	    
 }
 
-mktriangle(2);
+mktriangle(2);k
+
