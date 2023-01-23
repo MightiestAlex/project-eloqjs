@@ -1,0 +1,14 @@
+{
+  "name": "project-eloqjs",
+  "version": "1.0.0",
+  "description": "Eloq-JS-3rd-Edition",
+  "main": "ch1triangle.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alx",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
