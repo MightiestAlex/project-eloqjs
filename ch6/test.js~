@@ -1,0 +1,12 @@
+
+
+function takes(){
+    console.log(this.species);
+}
+
+let goblin = {
+    species: 'Goblin'
+}
+
+goblin.takes;
+
