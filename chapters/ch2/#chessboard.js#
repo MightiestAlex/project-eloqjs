@@ -1,0 +1,15 @@
+function goblin(width, height){
+    let output = '';
+    const rowOne = ' #';
+    const rowTwo = '# ';
+
+    for (let tempHeight = 0; tempHeight < height; tempHeight++){
+	for (let tempWidth = width; tempWidth > 0; tempWidth--){
+	    (tempHeight % 2) ? output+= rowTwo: output+= rowOne;
+	}
+	output = (tempHeight === height - 1) ? output :  output += '\n';
+    }
+    return output;
+}
+
+console.log(goblin(12, 17))
